@@ -33,7 +33,7 @@ var packrat = new Packrat({
   path: process.cwd()}, server, app
 )
 
-server.listen app.get("port"), ->
+server.listen(app.get("port"), function(){})
 
 /* ... application logic ... */
 ```
