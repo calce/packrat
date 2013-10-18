@@ -1,0 +1,34 @@
+{
+  "name": "packrat",
+  "description": "A simple `component` packer",
+  "homepage": "http://faye.jcoglan.com",
+  "author": {
+    "name": "Khanh Cao",
+    "email": "khanhncao@gmail.com"
+  },
+  "keywords": [
+    "component"
+  ],
+  "license": "MIT",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "component-builder": "~0.9.0",
+    "coffee-script": "~1.6.3",
+    "lodash": "~2.2.1",
+    "sqwish": "~0.2.1",
+    "uglify-js": "~2.4.0",
+    "stylus": "~0.38.0"
+  },
+  "devDependencies": {
+    "chokidar": "~0.6.3",
+    "faye": "~1.0.0",
+    "connectr": "0.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/calce/packrat.git"
+  }
+}
