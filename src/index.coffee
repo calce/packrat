@@ -42,7 +42,7 @@ class Packrat
       )
       connectr = require('connectr')(@app)
       @app.stack[1].handle.label = 'express'
-      @app.packratPayload = read(__dirname + '/../node_modules/faye/browser/faye-browser.js', "utf8") + read(__dirname + '/browser/packrat.js')
+      @app.packratPayload = read(__dirname + '/../faye-browser.js', "utf8") + read(__dirname + '/browser/packrat.js')
 
       connectr.after('express').use (req, res, next) ->
         res.packrat = self
