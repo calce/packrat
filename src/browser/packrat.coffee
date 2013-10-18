@@ -6,7 +6,7 @@ window.onload = ->
   client.subscribe "/packrat", (message) ->
     if message.reload
       console.log "reloading page"
-      location.reload()
+      location.reload true
     else
       console.log "reloading css..."
       document.getElementById("packrat-css").innerHTML = message.css
