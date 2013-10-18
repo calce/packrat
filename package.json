@@ -20,12 +20,12 @@
     "lodash": "~2.2.1",
     "sqwish": "~0.2.1",
     "uglify-js": "~2.4.0",
-    "stylus": "~0.38.0"
-  },
-  "devDependencies": {
+    "stylus": "~0.38.0",
     "chokidar": "~0.6.3",
     "faye": "~1.0.0",
     "connectr": "0.0.5"
+  },
+  "devDependencies": {
   },
   "repository": {
     "type": "git",
