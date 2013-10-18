@@ -19,7 +19,7 @@ A simple `component` packer that automatically update css live when a file in th
 ```js
 var express = require('express');
 var app = express();
-var Packrat = require('packrat');
+var Packrat = require('component-packrat');
 
 /* ... middlewares ... */
 
