@@ -35,7 +35,6 @@ var Packrat = require('packrat');
 packrat = new Packrat({
   coffee: true,
   stylus: true,
-  fonts: true,
   publicPath: process.cwd() + '/public/',
   path: process.cwd()
 }, server, app);

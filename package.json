@@ -1,5 +1,5 @@
 {
-  "name": "packrat",
+  "name": "component-packrat",
   "description": "A simple `component` packer",
   "homepage": "http://faye.jcoglan.com",
   "author": {

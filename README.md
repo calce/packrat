@@ -1,7 +1,7 @@
 packrat
 =======
 
-A simple `component` packer that automatically update css live when a file in the components folder is modified. Packrat was created mainly as a tool for the development process.
+A simple `component` packer that automatically update css live when a file in the components folder is modified. Packrat was created mainly as a tool for the front-end development process.
 
 ### Fetures
 
@@ -13,7 +13,7 @@ A simple `component` packer that automatically update css live when a file in th
 ### Usage
 
 #### Install
-`npm install packrat --save`
+`npm install component-packrat --save`
 
 #### Use
 ```js
