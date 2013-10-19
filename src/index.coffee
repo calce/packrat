@@ -78,7 +78,7 @@ class Packrat
 
   publishChanges: () ->
     client = @pub.getClient()
-    client.publish @channel, {css: @css, js: @js}
+    client.publish @channel, {css: @css}
     console.log 'assets packed, publishing...'
   
   pageReload: () ->
